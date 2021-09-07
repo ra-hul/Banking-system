@@ -4,11 +4,11 @@ document.getElementById('login-submit').addEventListener('click', function () {
 
     // get user password
 
-    const passwordField = document.getElementById("user-password");
-    const passwodValue = passwordField.value;
+    const passwordField = document.getElementById('user-password');
+    const passwordValue = passwordField.value;
 
-    if (emailValue == "rahul@gmail.com" && passwodValue == "rahulpaul007") {
+    if (emailValue == 'rahul@gmail.com' && passwordValue == 'rahulpaul007') {
 
-        window.location.href = 'banking-site.html'
+        window.location.href = 'banking-site.html';
     }
 })
